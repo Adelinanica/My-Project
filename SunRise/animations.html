@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animations</title>
+    <style>
+        @keyframes body {
+
+            0% {
+                background-color:#2c3e50;
+            }
+
+            25% {
+             background-color:#2980b9;
+            
+                 }
+            50% {
+                     background-color:#2980b9;
+                 }
+
+                 100% {
+                     background-color: #2c3e50;
+                 }
+        }
+
+        @keyframes ground{
+           0% {
+               background-color: #7e6806;
+           }
+
+           25% {
+               background-color:#27ae60;
+           }
+           
+           
+            50% {
+                background-color:#27ae60;
+                
+            }
+
+            100% {
+                background-color: #7e6806;
+                
+            }
+        }
+      
+      
+      
+        @keyframes sun {
+            0%{
+                background-color:#e2500c;
+                left: 840px;
+                
+            }
+
+        25% {
+                background-color:yellow;
+                bottom:500px;
+                left:840px;
+            }
+
+           50% {
+                 background-color: yellow;
+                 bottom:500px;
+                 left:250px
+            }
+
+            100% {
+                background-color: #ff0000;
+                bottom:0px;
+                left:250px;
+            }
+             } 
+
+             
+                 
+
+                 
+             
+
+        body {
+             position: relative;
+           background-color: #2c3e50;
+             width: 100vw;
+             height: 100vh;
+             animation-name: body;
+             animation-duration:10s;
+             animation-timing-function: ease-out;
+}
+
+        #ground {
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+             left: 0;
+             width: 100%;
+             height: 200px;
+              background: #27ae60;
+            animation-name:ground;
+            animation-duration:10s;
+             animation-timing-function: ease-out;
+}
+
+        #sun {
+             background: #ffd630;
+             width: 130px;
+             height: 130px;
+            position: absolute;
+             border-radius: 50%;
+             bottom: 0;
+             left: 840px;
+             animation-name: sun;
+             animation-duration: 10s;
+             animation-timing-function: ease;
+             animation-iteration-count: 1;
+             animation-fill-mode:forwards;
+             animation-direction:normal;
+             animation-delay:1;
+}
+
+       
+        
+    </style>
+</head>
+<body>
+    <div id="ground"></div>
+         <div id="sun"></div> 
+    
+   
+    
+</body>
+</html>
