@@ -1,0 +1,26 @@
+.DogList{
+    display:flex;
+    width: 400px;
+    height:400px;
+    border:1px solid pink;
+    justify-content: center;
+
+}
+
+.first{
+    width:100px;
+    height:20px;
+    background-color: pink;
+    text-align: center;
+    margin:auto;
+   
+}
+.Search{
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
