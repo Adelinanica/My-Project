@@ -4,8 +4,6 @@ import Person from "./author.js";
 import './index.css';
 import *as serviceWorker from './serviceWorker';
 
-
-
 ReactDOM.render(
   <React.StrictMode>
     <Person
