@@ -1,3 +1,21 @@
+## Movie Time App - REACT
+This project was built with React by Adelina Nica.
+
+Linkedin: linkedin.com/in/adelina-cristina-nica-80a902179
+
+Project: http://localhost:3000/
+
+![preview](https://github.com/Adelinanica/My-Projects/blob/main/movietime/testimage.png)
+
+## Set up the project
+ Clone my repository : https://github.com/Adelinanica/My-Projects.git
+  1. Install Node.js: https://nodejs.org/en/download/
+  2. Install NPM: https://www.npmjs.com/get-npm
+  3. Install using npm the create-react-app as a global command: npm install -g create-react-app
+  4. Start the application in terminal/CMD : cd movietime 
+  5. Start the application in terminal/CMD: npm start
+The react application will be opened automatically in the browser.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
