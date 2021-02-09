@@ -14,6 +14,7 @@ Project: http://localhost:3000/
   3. Install using npm the create-react-app as a global command: npm install -g create-react-app
   4. Start the application in terminal/CMD : cd movietime 
   5. Start the application in terminal/CMD: npm start
+  
 The react application will be opened automatically in the browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
