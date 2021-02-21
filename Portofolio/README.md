@@ -5,5 +5,5 @@ This project contains a small presentation about me.
 Clone this repository: https://github.com/Adelinanica/My-Projects.git
 Open project
 
-##Preview
+## Preview
 ![preview](https://github.com/Adelinanica/My-Projects/blob/main/Portofolio/prev.png)
