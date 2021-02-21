@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="functions.js"></script>
+
+</head>
+
+<body>
+    <div id="home" class="container">
+        
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#home" onclick="showHome('home')"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" onclick="showAbout('about');"><i class="fas fa-portrait"></i> About me</a></li>
+                <li><a href="#skills" onclick="showSkills();"><i class="fas fa-pencil-alt"></i> Skills</a></li>
+                <li><a href="#contact"onclick="showContact();"><i class="far fa-comment-dots"></i> Contact</a></li>
+
+            </ul>
+        </div>
+        <div id="name" class="home">
+            <h1>Front-End Web Developer</h1>
+            <h2>with passion for learning</h2>
+        </div>
+
+    </div>
+    <br>
+    <section id="content">
+
+        <div id="about" class="page" style="display: none;">
+            <div id="cluj">
+                <img src="./Images/laptop.jpg" alt="..">
+            </div>
+
+            <div id="descrip">
+                <p> My name is Adelina Nica.
+                    I have studied at the University of Medicine and Pharmacy "Iuliu Hatieganu", Cluj-Napoca, Dental
+                    Technical specialization.
+                    I followed my passion for technology and now i'm a Junior Front-End Developer.
+                    I'm a hard working person with desire to learn more and great desire to develop my knowledge.
+                    My main professional goal is to find a job and an opportunity to work with a good team, from which
+                    to learn and develop.
+
+                </p>
+            </div>
+        </div>
+
+        <div id="skills" class="page" style="display: none;">
+
+            <div id="skillss">
+                <i id="icon" class="fab fa-html5 fa-5x"></i>
+                <p>Advanced knowledge of HTML5</p>
+            </div>
+
+            <div id="skillss">
+                <i id="icon" class="fab fa-css3-alt fa-5x"></i></a>
+                <p>Advanced knowledge of CSS3</p>
+            </div>
+
+            <div id="skillss">
+                <i id="icon" class="fab fa-js fa-5x"></i>
+                <i id="icon" class="fab fa-react fa-5x"></i>
+                <p>Experienced with JS and REACT librabry </p>
+            </div>
+
+            <div>
+                <img id="learn" src="./Images/learn.jfif.crdownload" alt="">
+            </div>
+        </div>
+
+        <div id="contact" class="page" style="display: none;">
+
+            <div id="footer">
+                <h3>Contact me</h3>
+                <p><i class="fas fa-phone "> +40 753-534-945</i></p>
+                <p style="font-size:20px;"><i class="fas fa-mail-bulk fa-2x"></i> adelinanica29@yahoo.com</p>
+                <a href="linkedin.com/in/adelina-cristina-nica-80a902179" target="_blank"><i
+                        class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://github.com/Adelinanica/My-Projects.git" target="_blank"><i
+                        class="fab fa-github fa-3x"></i></a>
+            </div>
+            <div id="map">
+                <p><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21868.43288008556!2d23.53834973336822!3d46.753973367728335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e661692f1cd%3A0x147e97b23edd308c!2zTcSDbsSDyJl0dXIsIENsdWotTmFwb2Nh!5e0!3m2!1sen!2sro!4v1613230914161!5m2!1sen!2sro"
+                        width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe></p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
