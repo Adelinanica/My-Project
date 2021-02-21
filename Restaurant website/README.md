@@ -12,4 +12,5 @@ Linkedin:  linkedin.com/in/adelina-cristina-nica-80a902179
  Open the project.
 
  ### Preview
- ![preview] ()
+ ![preview] (https://github.com/Adelinanica/My-Projects/blob/main/Restaurant%20website/prev1.png)
+ ![preview] (https://github.com/Adelinanica/My-Projects/blob/main/Restaurant%20website/prev2.png)
