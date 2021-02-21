@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                Webpage
+        </title>
+        <style>
+            body{
+                width:100vw;
+                height:100vh;
+                background-color: rgb(104, 75, 75);
+            }
+            .nav{
+                display: flex;
+                align-items: center;
+                margin:auto;
+                
+            }
+            .logo{
+                width:200px;
+                height:180px;
+                border-radius: 100px;
+            }
+            
+            .page{
+                display: inline-block;
+                 text-decoration: none;
+                font-size: 30px;
+                color: cornsilk;
+                margin-left:100px;
+            }
+            .page:hover{
+                color:thistle;
+                 }
+            
+            p{
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: center;
+                }
+            .flex-container{
+                display: flex;
+                flex-direction: column;
+                margin:auto;
+                 width:700px;
+                height:100px;
+            
+            }
+            .cookie, .cake, .ginger{
+                display: flex;
+                 width:250px;
+                height:400px;
+                transition: all 2s;
+                cursor:pointer;
+            }
+
+            .cookie:hover, .cake:hover, .ginger:hover{
+                transform: scale(1.1);
+                
+            }
+            .pictures{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                
+            }
+           
+
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+         <img class="logo" src="logo.jpg" alt="cookies"/>
+         <div class="pages">
+        <span ><a class="page" href="./home.html">Home</a></span>
+        <span><a class="page" href="./secondpage.html">Cakes</a></span>
+        <span><a class="page" href="./cookies.html">Cookies</a></span>
+        <span><a class="page" href="./ginger.html">Gingerbread</a></span>
+        </div>
+        </div>
+       
+        <div class="middle">
+            <div class="flex-container">
+                <p class="flex-item">
+                I'm just a girl passionate about baking cakes and other sweets. I hope you'll like what recipes you will find
+                here. Let's start baking! 
+                </p>
+              
+            </div>
+            <div class="pictures">
+          <a href="./cookies.html"> <img class="cookie"src="./Blueberry-Oatmeal-Cookies-4.jpg"/></a>
+          <a href="./cake.html"><img class="cake" src="./cake.jfif"/></a>
+           <a href="./ginger.html"><img class="ginger" src="./ginger.jfif"/></a>
+        </div>
+            </div>
+            <script>
+               
+
+            </script>
+
+    </body>
+</html>

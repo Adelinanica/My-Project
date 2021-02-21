@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Milo's Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"> 
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="nav-bar">
+
+            <img src="./Pictures/logo.png" alt="logo" id="logo">
+            <ul>
+                <li> <a href="#home" onclick="showHome('home')"> <i class="fas fa-home"></i> HOME</a></li>
+                <li> <a href="#RESTAURANT" onclick="showRestaurant('restaurant')"> <i class="fas fa-store-alt"></i> RESTAURANT</a></li>
+                <li> <a href="#MENU" onclick="showMenu('menu')"> <i class="fas fa-utensils"></i> MENU</a></li>
+                <li> <a href="#CONTACT" onclick="showContact('contact')"> <i class="fas fa-phone-square"></i> CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="home" class="page" style="display: none;">
+        <img src="./Pictures/restaurant.jpg" alt="restaurant">
+        <div id="home-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna
+                aliqua. Ut enim ad minim veniam.
+            </p>
+        </div>
+
+        <div id="home-pictures">
+            <p>Enjoy the food! </p>
+            <img src="./Pictures/dish.jpg" alt="dish">
+            <h2>Enjoy the live music!</h2>
+            <img src="./Pictures/live-music.jpg" alt="live-music">
+        </div>
+
+        <div id="home-contact">
+            <img src="./Pictures/logo.png" alt="">
+            <p>Reservations : 094635272894</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8895.523682605435!2d23.578118730720654!3d46.77071341305392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d0bb760e3%3A0x1a009cab634afa8!2sOld%20Town%2C%20Cluj-Napoca!5e1!3m2!1sen!2sro!4v1613728734842!5m2!1sen!2sro"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <div id="restaurant" class="page" style="display: none;">
+        <div id="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div id="content">
+            <img class="outside" src="./Pictures/restaurant-outside.jpg" alt="">
+            <img class="inside" src="./Pictures/restaurant.jpg" alt="">
+            <img class="dish" src="./Pictures/dish2.jfif" alt="">
+            <img class="dish2" src="./Pictures/live-music.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="menu" class="page" style="display: none;">
+         <img id="fine-dining" src="./Pictures/menu-dish.jpg" alt="">
+        <div class="menu1">
+            <h1>Breakfast</h1>
+            <p>Name breakfast ---------------------------------------------------------------------------- Price</p>
+            <p>Name breakfast ---------------------------------------------------------------------------- Price</p>
+            <p>Name breakfast ---------------------------------------------------------------------------- Price</p>
+            <p>Name breakfast ---------------------------------------------------------------------------- Price</p>
+            <p>Name breakfast ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Appetizer</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Soup</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Salad</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Main Dish</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Pasta</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Desert</h1>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+            <p>Name  ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Non-alcoholic Drinks</h1>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div class="menu1">
+            <h1>Alcoholic Drinks</h1>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+            <p>Drink ---------------------------------------------------------------------------- Price</p>
+        </div>
+
+        <div id="home-contact">
+            <img src="./Pictures/logo.png" alt="">
+            <p>Reservations : 094635272894</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8895.523682605435!2d23.578118730720654!3d46.77071341305392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d0bb760e3%3A0x1a009cab634afa8!2sOld%20Town%2C%20Cluj-Napoca!5e1!3m2!1sen!2sro!4v1613728734842!5m2!1sen!2sro"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+
+    </div>
+
+    <div id="contact" class="page" style="display: none;">
+        <img src="./Pictures/rest.jpg" alt="">
+        <div class="contact">
+            <div id='phone'>
+            <i class="fas fa-phone fa-3x"></i>
+            <p>Phone | Reservations</p>
+          <p>  8543790543223</p> 
+        </div>
+        <div id="mail">
+          <i class="far fa-envelope fa-3x"></i>
+          <p>milo-restaurant@yahoo.com</p>
+        </div>
+
+        <div id="adress">
+            <i class="fas fa-map-marker-alt fa-3x"></i>
+            <p>Street street, nr 00</p>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21868.432880085587!2d23.5383497333682!3d46.753973367728335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e661692f1cd%3A0x147e97b23edd308c!2zTcSDbsSDyJl0dXIsIENsdWotTmFwb2Nh!5e0!3m2!1sen!2sro!4v1613822012944!5m2!1sen!2sro" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+
+</html>

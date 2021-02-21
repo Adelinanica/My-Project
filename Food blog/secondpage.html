@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <base  target="_blank"> 
+<title>recipes</title>
+<style>
+    body{
+        background-color: rgb(104, 75, 75);
+    }
+    
+    .nav{
+                display: flex;
+                align-items: center;
+                margin:auto;
+                
+            }
+            .logo{
+                width:200px;
+                height:180px;
+                border-radius: 100px;
+            }
+            
+            .links{
+                display: inline-block;
+                margin-left:150px;
+                text-decoration: none;
+                font-size: 30px;
+                color: cornsilk;
+            }
+    h1{
+        color:thistle;
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+         }
+    .image{
+         width:150px;
+        height:180px;
+        margin-left: 20px;
+        transition: all 2s;
+       }
+        .image:hover{
+            transform: scale(1.05);
+        }
+    .links{
+                display: inline-block;
+                margin-left:100px;
+                text-decoration: none;
+                font-size: 30px;
+    }
+    .links:hover{
+        color:thistle;
+    }
+    .titles{
+        cursor: pointer;
+        margin-left:30px;
+         text-decoration: none;
+        color:rgb(165, 224, 231);
+        font-size: 25px;
+    }
+    .titles:hover{
+        color:blue;
+    }
+   
+    #btn{
+       background-color: thistle;
+       }
+    
+    #button{
+        background-color: thistle;
+    }
+    #btns{
+        background-color: thistle;
+    }
+    
+  
+</style>
+    </head>
+    <body>
+        <div class="nav">
+            <img class="logo" src="logo.jpg" alt="cookies"/>
+            <div class="pages">
+           <span ><a class="links" href="./home.html">Home</a></span>
+           <span><a class="links" href="./secondpage.html">Cakes</a></span>
+           <span><a class="links" href="./cookies.html">Cookies</a></span>
+           <span><a class="links" href="./ginger.html">Gingerbread</a></span>
+           </div>
+           </div>
+        <h1>Cakes</h1>
+        <div class="list">
+                <a class="titles"href="./cake.html"  >1.Chocolate Cake </a>
+                  <img  class="image" src="./cake.jfif"/>
+                      <button  id="btn" onclick="addtofavourites()">See video</button>
+                    
+                <a class="titles" href="./cake2.html">2.Ecler</a>
+                    <img class="image" src="./tortecler.jfif"/>
+                    <button id="button" onclick="seevideo()">See video</button>
+                
+                <a class="titles" href="./redvelvet.html">3.Red Velvet</a>
+                <img class="image" src="./redvelvet.jpg"/>
+                <button id="btns" onclick="see()">See video</button>
+             </div>
+           
+        <script>
+            function addtofavourites(){
+                document.getElementById("btn").innerHTML="Seen"
+                // window.location.replace('https://www.youtube.com/watch?v=5_CQQzvePqA' )
+                 window.location.href ="https://www.youtube.com/watch?v=8SHYcuJwsv0";
+                 }
+
+                 function seevideo(){
+                document.getElementById("button").innerHTML="Seen"
+                // window.location.replace('https://www.youtube.com/watch?v=5_CQQzvePqA' )
+                 window.location.href ="https://www.youtube.com/watch?v=IW0CYkYiJ5U";
+                 }
+
+                 function see(){
+                     document.getElementById("btns").innerHTML="Seen"
+                     window.location.href="https://www.youtube.com/watch?v=04Nd9QI3oTY"
+                 }
+        </script>
+    </body>
+</html>

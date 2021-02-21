@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 123, 104);
+    background-image: url(./Pictures/first.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    width:100%;
+    height: 90px;
+    border: 1px solid black;
+    position: fixed;
+    margin: auto; 
+    background-color: rgb(65, 52, 38);
+} 
+
+#logo{
+    height:90px ;
+    padding-left: 20px;
+    border-radius: 80%;
+}
+ul{
+    margin: auto;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding:60px;
+    }
+
+li a{
+   text-decoration: none;
+   font-size: 20px;
+    color: white;
+    }
+
+li a:hover{
+    color: rgb(226, 180, 138);
+    text-decoration: underline;
+    transition: 1s ease-in;
+}
+#home{
+    width: 100%;
+    margin:0;
+    height: 100%;
+    padding: 0;
+    background-color: rgb(141, 123, 104);
+}
+#home img{
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+}
+
+#home-text{
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 253, 253);
+    }
+#home-pictures{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#home-pictures img{
+    width: 50%;
+    transition: 1s linear;
+}
+#home-pictures img:hover{
+    transform: scale(1.1);
+}
+#home-pictures p {
+    position:absolute;
+    font-weight: bold;
+    left: 250px;
+    top: 780px;
+    color: white;
+    font-size: 30px;
+}
+#home-pictures h2 {
+    position: absolute;
+    right: 160px;
+    color: white;
+    font-size: 30px;
+}
+
+#home-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(141, 123, 104);
+    margin-top: 20px;
+}
+#home-contact iframe{
+    margin-top: 20px;
+    padding-left: 300px;
+}
+#home-contact img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 80%;
+}
+#home-contact p{
+    position: relative;
+    left:130px;
+    top: 130px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight:lighter
+}
+
+#restaurant{
+    background-color: rgb(141, 123, 104);
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+   
+
+#restaurant .outside{
+    flex:1;
+    width: 600px;
+    height: 400px;
+    
+}
+#restaurant .inside{
+    flex:1;
+    width: 600px;
+    height: 400px;
+    
+}
+#restaurant .dish{
+    width: 676px;
+    height: 400px;
+    }
+#restaurant .dish2{
+    width: 673px;
+    height: 400px;
+}
+
+#text{
+    background-color:rgb(141, 123, 104);
+    height: 130px;
+    padding-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+}
+#menu{
+    background-color: rgb(141, 123, 104);
+}
+#fine-dining{
+    width: 100%;
+    height: 610px;
+    padding-top: 90px;
+}
+
+.menu1{
+    border:1px solid black;
+    background-color: rgb(235, 222, 211);
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+}
+
+.menu1 p {
+    padding-left: 200px;
+    font-size: 20px;
+    text-decoration-line: overline;
+}
+.menu1 h1{
+    padding-left:20px;
+}
+
+#contact{
+    background-color: rgb(141, 123, 104);
+}
+#contact  img{
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(141, 123, 104);
+    width: 100%;
+    height: 400px;
+}
+
+.contact p {
+    font-size: 20px;
+    
+}
+.contact i{
+    color:rgb(15, 15, 15);
+}
+
+
+
+    
+
+
+
+

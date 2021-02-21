@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tags</title>
+    </head>
+    <body>
+        <!-- Options SELECT vs DATALIST -->
+        <select>
+            <option>cacao</option>
+            <option>vanilie</option>
+        </select>
+        <input list="d">
+        <datalist id="d">
+            <option>capsuni</option>
+            <option>cirese</option>
+        </datalist>
+<br>
+        <!-- Bold text -->
+        <b>hello</b>
+
+        <!-- BASE= for links- to open in a new tab all links from document -->
+        <base href="www.google.com" target="_blank">
+        <a href="https://www.google.com">Links</a>
+
+        <!-- CAPTION. title for a table -->
+        <table>
+            <caption>Salary</caption>
+            <tr>
+                <th>Month</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>february</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <!-- CITE - title of a piece of work, is in italic -->
+        <p>this is <cite>The Letter</cite> movie</p>
+
+        <!-- DEL(delete) and INS (insert) to see a text was deleted and another is insert -->
+        <p>this is delete <del>text delete</del> and this is insert <ins>insert text </ins></p>
+
+        <!-- DETAILS = the user can open and close to see the details
+             SUMMARY= title of details -->
+             <details>
+                 <summary>Fruits</summary>
+                 <p>Mango, Apple, Pear</p>
+             </details>
+
+             <!-- DFN = the term that it will be define -->
+
+             <p><dfn>HTML</dfn> is hyper text markup language</p>
+
+             <!-- DL description list -->
+             <dl>
+                 <dt>Coffee</dt>
+                 <dd>is black</dd>
+             </dl>
+
+             <!-- DT is term in a description list -->
+
+             <!-- EM used to describe an emphasized text= accentuat, italic -->
+             <p>this is <em> a text </em></p>
+
+             <!-- FIELDSET pt a grupa anumite elemente intrun formular + legend ca si caption -->
+            <fieldset>
+                <legend>adresa</legend>
+                <textarea> str nr bloc</textarea>
+            </fieldset>
+
+            <!-- HR is an orizontal line like br -->
+            <p>hello</p>
+            <hr>
+            <p>world</p>
+
+            
+            <!-- IFRAME  sa inramezi/ embed un video, o poza, un site , o alta pagina-->
+            <iframe src="./ginger.jfif"></iframe>
+<br>
+            <!-- LABEL = eticheta -->
+            <label>Nume</label>
+            <input name='nume' type="text" placeholder="nume"/>
+<br>
+            <!-- MAP- used with img! when you have clickable areas on picture -->
+            <img src="./cake.jfif" width="300" height="400" usemap="maping"/>
+            <map name="maping">
+                <area shape="circle" coords="12,12,12" href="./cream.jfif">
+            </map>
+
+            <!-- MARK = a text that should be marked . evidentiat , colorat -->
+            <p>this is a <mark>pharagraph</mark></p>
+
+
+            <!-- META is data information about data ., always in the head section -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- OBJECT, a container for  external resource, like iframe, like img -->
+            <object width="100" height="100" data="./redvelvet.jpg"></object>
+
+            <!-- PRE, preformated text -->
+            <p>dfgsdjfhsdjvbsdvfsdvdsvsdvsdvsdvsd</p>
+            <pre>asjfgasjcbsuegsdhbvjsdhvbsjdbvsjdvhbsjdvbhjdsvbjsdvbjhdsvbjds</pre>
+
+            <!-- PROGRESS, show progress for something -->
+            <progress value="50" max="100">50%</progress>
+
+            <!-- Q, shot quote""" -->
+            <p>sjhss <q>sds</q></p>
+
+            <!-- S , text with a line over . like delete-->
+            <p>this is a text <s> this is no longer relevant</s> and this is relevant</p>
+
+            <!-- SMALL . smaller text -->
+            <p>this is normal text <small>this is smaller text</small></p>
+
+            <!-- STRONG strong text, bold -->
+            <strong> this is strong text</strong>
+
+            <!-- SUB , is subscript text -->
+          <p>this is normal text <sub> this is subscript part</sub></p>
+
+          <!-- SUP, superscript text -->
+          <p>this is normal text <sup> this is supscript</sup></p>
+
+          <!-- TEMPLATE. container that hide some html text , like summary -->
+          <button id="btn" onclick="see()">see the details </button>
+              <template>
+                  <p>this is the detail</p>
+              </template>
+
+              <!-- U for underline text -->
+              <p>this is some text,  <u>this is underline text</u></p>
+
+              <!-- WBR, word break -->
+              <p>this is too long pharagraph  <wbr>this<wbr> is what we will do to break the line</p>
+    
+         <script>
+              function see(){
+                var temp= document.getElementsByTagName("template")[0];
+                var clon=temp.content.cloneNode(true)
+                document.body.appendChild(clon)
+             }
+          </script>
+        </body>
+</html>
