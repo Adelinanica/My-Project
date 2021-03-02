@@ -141,22 +141,22 @@ li a:hover{
 
 #restaurant .outside{
     flex:1;
-    width: 600px;
+    width: 50%;
     height: 400px;
     
 }
 #restaurant .inside{
     flex:1;
-    width: 600px;
+    width: 50%;
     height: 400px;
     
 }
 #restaurant .dish{
-    width: 676px;
+    width: 50%;
     height: 400px;
     }
 #restaurant .dish2{
-    width: 673px;
+    width: 50%;
     height: 400px;
 }
 
