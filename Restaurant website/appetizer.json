@@ -1,0 +1,22 @@
+[
+    {
+        "dish":"Appetizer",
+        "name":"appetizer",
+        "price":"$"
+    },
+    {
+        "dish":"Appetizer",
+        "name":"appetizer",
+        "price":" $"
+    },
+    {
+        "dish":"Appetizer",
+        "name":"appetizer",
+        "price":"$"
+    },
+    {
+        "dish":"Appetizer",
+        "name":"appetizer",
+        "price":" $"
+    }
+]

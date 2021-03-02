@@ -1,0 +1,24 @@
+[
+    {   "dish":"Breakfast",
+        "name":"Avocado",
+        "price":"6.00 $"
+    },
+    {   "dish":"English",
+        "name":"Sandwich",
+        "price":"3.00 $"
+    },
+    {   "dish":"Special",
+        "name":"Omlete",
+        "price":"5.00 $"
+    },
+    {   "dish":"Scrambled",
+        "name":"Eggs",
+        "price":"6.00 $"
+    },
+    {   "dish":"Fried",
+        "name":"Eggs",
+        "price":"6.50 $"
+    }
+    
+
+]
